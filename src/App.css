@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 1rem;
+  width: 50%;
+  height: 70%;
+  border-radius: 10px;
+  border:solid black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.password-text {
+  display: flex;
+  justify-content: space-between;
+  background-color: wheat;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.password-text h3 {
+  padding: 0.5rem;
+  color: rgb(172, 23, 23);
+}
+.copy-btn {
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+  padding: 0.2rem 0.5rem;
+}
+.copy-btn:active {
+  outline: 2px solid white;
+}
+.password-length {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.check {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.generate-password {
+  font-size: 18px;
+  background-color: blue;
+  height: 11%;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;  
+}
+
